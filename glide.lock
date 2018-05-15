@@ -1,0 +1,30 @@
+hash: 347d0e1e939d65fceda2b1e9d90c8bac67195bccdd99bb05d3a4bb6d9e7329ab
+updated: 2018-05-14T23:11:01.7970871-07:00
+imports:
+- name: github.com/hashicorp/go-immutable-radix
+  version: 7f3cd4390caab3250a57f30efdb2a65dd7649ecf
+- name: github.com/hashicorp/go-memdb
+  version: 1289e7fffe71d8fd4d4d491ba9a412c50f244c44
+- name: github.com/hashicorp/golang-lru
+  version: 0fb14efe8c47ae851c0034ed7a448854d3d34cf3
+  subpackages:
+  - simplelru
+- name: github.com/julienschmidt/httprouter
+  version: adbc77eec0d91467376ca515bc3a14b8434d0f18
+- name: github.com/nu7hatch/gouuid
+  version: 179d4d0c4d8d407a32af483c2354df1d2c91e6c3
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- name: github.com/stretchr/testify
+  version: c679ae2cc0cb27ec3293fea7e254e47386f05d69
+  subpackages:
+  - assert
+- name: github.com/tv42/mockhttp
+  version: c323b80d6f5fd24d602d021f544a36f66e0c9fb6
